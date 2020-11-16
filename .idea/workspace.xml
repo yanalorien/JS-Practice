@@ -19,7 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f1a27e93-b9b7-46c4-a0ca-ec6b518a5c74" name="Default Changelist" comment="" />
+    <list default="true" id="f1a27e93-b9b7-46c4-a0ca-ec6b518a5c74" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,7 +46,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/ProjectsQA7/MLH" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -59,7 +61,8 @@
       <workItem from="1602093663891" duration="1828000" />
       <workItem from="1602815897144" duration="38000" />
       <workItem from="1603583883563" duration="615000" />
-      <workItem from="1603671245548" duration="468000" />
+      <workItem from="1603671245548" duration="744000" />
+      <workItem from="1603851618354" duration="655000" />
     </task>
     <servers />
   </component>
@@ -83,5 +86,9 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="538" y="234" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.864@0.0.1536.864" timestamp="1603583955876" />
+    <state x="549" y="187" key="FileChooserDialogImpl" timestamp="1603852557310">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.864/1920.0.1280.720@0.0.1536.864" timestamp="1603852557310" />
   </component>
 </project>
