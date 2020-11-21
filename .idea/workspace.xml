@@ -20,6 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f1a27e93-b9b7-46c4-a0ca-ec6b518a5c74" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/drawingPatterns.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,7 +47,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/ProjectsQA7/MLH" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -63,6 +64,7 @@
       <workItem from="1603583883563" duration="615000" />
       <workItem from="1603671245548" duration="744000" />
       <workItem from="1603851618354" duration="655000" />
+      <workItem from="1605500458960" duration="204000" />
     </task>
     <servers />
   </component>
