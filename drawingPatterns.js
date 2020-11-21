@@ -230,3 +230,63 @@ let s = '';
   return s.slice(0, -1);
 }
 console.log(stairs(6));
+
+// When m = 12345 and n = 5, the matrix is:
+// [
+//   [1, 2, 2, 2, 1],
+//   [4, 1, 2, 1, 5],
+//   [4, 4, 1, 5, 5],
+//   [4, 1, 3, 1, 5],
+//   [1, 3, 3, 3, 1]
+// ]
+// сначала построим макет (создадим массив нужной длины, нужной вложенности)
+
+// function makeMatrix(m, n){
+//   let digits = String(m);
+//   let arr = Array(n);
+//   for (let i = 0; i < n; i++){
+//     arr[i] = Array(n)
+//   }
+//   for (let i = 0; i < n; i++){
+//     for (let j = 0; j < n; j++){
+//       if (i === j || i + j === n-1){
+//         arr[i][j] = +digits[0];
+//       } else if (i < j && i + j < n - 1) {
+//         arr[i][j] = +digits[1]
+//       }else if (i < j && i + j > n - 1){
+//         arr[i][j] = +digits[4]
+//       } else if (i > j && i + j > n - 1){
+//         arr[i][j] = +digits[2]
+//       } else {
+//         arr[i][j] = +digits[3]
+//       }
+//     }
+//   }
+//   return arr;
+// }
+// console.log(makeMatrix(12345, 5));
+
+// Нужно построить новогоднюю елочку, chars - символы, n - высота елки
+function customChristmasTree(chars, n){
+  // вычислили длину цепочки для украшения
+  let len = 0;
+  for (let i = 1; i <= n; i++){
+    len += i;
+  }
+  // построили саму цепочку для украшения
+  let toys = chars.repeat(len).slice(0, len);
+  // строим линии елочки
+  let tree = [];
+  for (let i = 1; i <= n; i++){
+    let s = ' '.repeat(n - i) + toys.slice(0, i).split('').join(' ');
+    tree.push(s);
+    toys = toys.slice(i);
+    // строим ствол
+    let height = Math.trunc(n/3);
+    for (let i = 1; i <= height; i++){
+      tree.push(' '.repeat(n-1) + '|')
+    }
+  }
+  return tree.join('\n');
+}
+console.log(customChristmasTree("*@o", 6));
