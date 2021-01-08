@@ -74,3 +74,15 @@ function hasDuplicates(words){
     return duplicates.length >= 2;
 }
 console.log(hasDuplicates(words));
+
+// последовательность от 1 до 100. Найти какое число пропущено.
+// (Можно найти сумму и отнять от суммы чисел от 1 до 100 (5050))
+function missingNumbers(arr){
+  const mn = [];
+  for (let i = 1, j = 0; i <= 100; i++){
+    if (arr[j] === i) j++;
+    else mn.push(i)
+  }
+  return mn;
+}
+console.log(missingNumbers([1, 2, 5, 99]));
